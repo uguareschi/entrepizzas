@@ -7,6 +7,7 @@ import {
   Col,
   ListGroup,
 } from 'react-bootstrap'
+import Footer from './components/Footer'
 
 const App = () => {
   const [hidration, setHidration] = useState(65)
@@ -29,7 +30,7 @@ const App = () => {
 
   return (
     <>
-      <Container fluid='md'>
+      <Container fluid='md' id='page-container content-wrap'>
         <h1 className='text-center mt-3'>
           Calculadora para masa de pizza napolitana
         </h1>
@@ -89,6 +90,7 @@ const App = () => {
             </ListGroup>
           </Col>
         </Row>
+        <Footer />
       </Container>
     </>
   )
