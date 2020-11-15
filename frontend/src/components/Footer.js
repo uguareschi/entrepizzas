@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Footer = () => {
   return (
     <footer>
-      <Container id='footer'>
+      <Container>
         <Row>
-          <Col>
+          <Col className='text-center py-3'>
             Creado Por{' '}
             <a href='https://twitter.com/UGuareschi'>Ulises Guareschi</a>
           </Col>
